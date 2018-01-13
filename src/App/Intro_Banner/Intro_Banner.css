@@ -1,0 +1,36 @@
+.IntroBanner {
+    padding-top: 115px;
+    height: 685px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Headline {
+    margin: 0 auto;
+    width: 66.6667%;
+    font-weight: 300;
+    font-size: 3.5em;
+    padding-bottom: 5rem;
+}
+
+.banner-icon {
+    padding-bottom: 2.375em;
+}
+
+.CTA-Button {
+    height: 65px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: var(--action-blue);
+    font-size: 1.25em;
+    padding: 0 2em;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: .5em;
+}
+
+@media (max-width: 767px) {
+    .Headline {
+        width: 90%;
+    }
+}

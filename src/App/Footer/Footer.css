@@ -1,11 +1,11 @@
 .footer {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 0 20px;
-    height: 76px;
     font-size: 14px;
+    height: 76px;
     background-color: var(--footer-background-color);
     display: flex;
     align-items: center;
