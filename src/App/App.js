@@ -16,7 +16,6 @@ class App extends Component {
                 <PictureGrid />
                 <Menu />
                 <IntroBanner />
-                <Footer />
                 <div class="ContentGrid">
                     <ContentRow url={hdbeef} alt="Beef Hotdog" headline="Gourmet All Beef Hotdogs"  
                     text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."/>
@@ -25,6 +24,7 @@ class App extends Component {
                     <ContentRow url={hdvegetarian} alt="Vegetarian Hotdog"headline="Vegetarian Hotdogs"  
                     text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."/>
                 </div>
+                <Footer />
             </div>
         );
     }
