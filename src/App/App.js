@@ -13,6 +13,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <div className="body">
                 <PictureGrid />
                 <Menu />
                 <IntroBanner />
@@ -38,8 +39,9 @@ class App extends Component {
                         headline="Vegetarian Hotdogs"
                         text="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
                     />
-                </div>
-                <Footer />
+                    </div>
+                    </div>
+                    <Footer />
             </div>
         );
     }

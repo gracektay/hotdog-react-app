@@ -1,6 +1,10 @@
 .App {
-    min-height: calc(100vh + 76px);
+    min-height: 100%;
+    position: relative;
     background-color: var(--background-color);
+}
+.body {
+    padding-bottom:76px;
 }
 
 .ContentGrid {
