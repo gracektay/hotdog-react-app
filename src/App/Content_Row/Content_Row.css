@@ -56,4 +56,10 @@ p {
       width: 100%;
       height: auto;
     }
+    .resizeDisplay {
+      display: none;
+    }
+    .mobileView {
+      display: block;
+    }
   }
