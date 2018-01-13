@@ -14,3 +14,4 @@ Thought Process:
   - Step 1 - Compile all the necessary assets into appropriate folders, such as photos and fonts.
   - Step 2 - Identify the major components and subcomponents and create appropriate directories and files accordingly.
   - Step 3 - Design Footer *No functionality added yet*
+  - Step 4 - Designed Image Grid. No notes on mobile, so I've adjusted the images to scale as page size goes down *Change instagram font to Proxima. See if I can eliminate small white spaces*
