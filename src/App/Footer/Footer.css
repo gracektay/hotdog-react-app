@@ -1,0 +1,24 @@
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 76px;
+    font-size: 14px;
+    font-weight: regular;
+    background-color: var(--footer-background-color);
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.contact-links {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
