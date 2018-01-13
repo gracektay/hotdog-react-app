@@ -15,3 +15,4 @@ Thought Process:
   - Step 2 - Identify the major components and subcomponents and create appropriate directories and files accordingly.
   - Step 3 - Design Footer *No functionality added yet*
   - Step 4 - Designed Image Grid. No notes on mobile, so I've adjusted the images to scale as page size goes down *Change instagram font to Proxima. See if I can eliminate small white spaces*
+  - Step 5 - Designed Menu Component. Added a hover style element with a bottom border "action blue", using the same button color that's in intro for consistency in action colors. On medium devices and below, I've deactivated hover and stacked the links to reduce mobile issues.
