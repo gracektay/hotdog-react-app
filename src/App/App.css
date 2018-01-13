@@ -2,3 +2,8 @@
     min-height: calc(100vh - 76px);
     background-color: var(--background-color);
 }
+
+.ContentGrid {
+    max-width: 1440px;
+    margin: 0 auto;
+}
