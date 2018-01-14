@@ -6,18 +6,10 @@ export default class Menu extends Component {
         return (
             <div className="Menu">
                 <ul>
-                    <li>
-                        <NavLink url={"#"} title={"Menu"} />
-                    </li>
-                    <li>
-                        <NavLink url={"#"} title={"Catering"} />
-                    </li>
-                    <li>
-                        <NavLink url={"#"} title={"About Us"} />
-                    </li>
-                    <li>
-                        <NavLink url={"#"} title={"Contact"} />
-                    </li>
+                    <NavLink url={"#"} title={"Menu"} />
+                    <NavLink url={"#"} title={"Catering"} />
+                    <NavLink url={"#"} title={"About Us"} />
+                    <NavLink url={"#"} title={"Contact"} />
                 </ul>
             </div>
         );
@@ -26,8 +18,10 @@ export default class Menu extends Component {
 
 function NavLink(props) {
     return (
-        <a href={props.url} className="Nav-Link">
-            {props.title}
-        </a>
+        <li className="menu-list-item">
+            <a href={props.url} className="Nav-Link">
+                {props.title}
+            </a>
+        </li>
     );
 }

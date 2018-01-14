@@ -16,11 +16,11 @@
   display: table;
 }
 
-.Menu ul li {
+.menu-list-item {
   display: table-cell;
 }
 
-.Menu ul li a {
+.menu-list-item a {
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -51,7 +51,7 @@
     height: 100%;
   }
 
-  .Menu ul li {
+  .menu-list-item {
     display: block;
     padding: 1.25em 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.11);

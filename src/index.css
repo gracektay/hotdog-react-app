@@ -6,6 +6,8 @@ body {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 
+    --footer-height: 76px;
+
     --background-color: #fbfafa;
     --footer-background-color: #efefef;
     --body-text-color: #555559;

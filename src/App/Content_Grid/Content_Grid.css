@@ -1,3 +1,8 @@
+.ContentGrid {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .ContentRow {
     display: flex;
     flex-wrap: nowrap;
@@ -5,8 +10,8 @@
     flex-direction: row;
 }
 
-.ContentRow.reverse {
-    flex-direction: row-reverse;
+.ContentGrid .ContentRow:nth-child(even) {
+    flex-direction: row-reverse !important;
 }
 
 .BlockImage,
