@@ -14,9 +14,6 @@ import photo11 from "../Assets/picture_grid/photo_11.png";
 import photo12 from "../Assets/picture_grid/photo_12.png";
 import instagram from "../Assets/icons/instagram.png";
 
-//const imagePath = './Assets/picture_grid'
-// './Assets/picture_grid/photo_1.png'
-
 export default class Picture_Grid extends React.Component {
   render() {
     return (

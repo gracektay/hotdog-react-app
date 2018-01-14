@@ -18,12 +18,19 @@
 
 .Menu ul li {
   display: table-cell;
-  text-align: -webkit-match-parent;
 }
 
 .Menu ul li a {
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.Nav-Link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--attention-text-color);
+  font-weight: 600;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {

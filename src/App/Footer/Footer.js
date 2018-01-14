@@ -25,7 +25,9 @@ export default class Footer extends React.Component {
 function FooterLink(props) {
     return (
         <li className="FooterLink">
-            <a target={props.target} href={props.url}>{props.title}</a>
+            <a target={props.target} href={props.url}>
+                {props.title}
+            </a>
         </li>
     );
 }

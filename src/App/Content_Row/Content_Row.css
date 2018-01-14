@@ -1,8 +1,12 @@
 .ContentRow {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     background-color: white;
+    flex-direction: row;
+}
+
+.ContentRow.reverse {
+    flex-direction: row-reverse;
 }
 
 .BlockImage,
@@ -15,7 +19,7 @@
 
 .BlockImage img {
     object-fit: cover;
-    vertical-align:top;
+    vertical-align: top;
     width: 100%;
 }
 
@@ -51,7 +55,7 @@ p {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.11);
     }
     .ContentRow:last-of-type {
-      margin-bottom: 0;
+        margin-bottom: 0;
     }
     .BlockText,
     .BlockImage {
