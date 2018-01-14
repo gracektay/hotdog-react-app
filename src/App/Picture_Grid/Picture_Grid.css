@@ -1,31 +1,22 @@
-
-.picture-grid ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: table;
-    width: 100%;
+.row {
+    display: flex;
 }
 
-.row li {
-    display: table-cell;
-    text-align: -webkit-match-parent;
-}
-
-.row li img {
-    display: block;
-    width: 100%;
-    height: auto;
+.row img {
     object-fit: cover;
+    width: 17.362%;
 }
 
-.picture-grid{
-    position:relative;
-    display:inline-block;
-  }
-  
+.row .img-sm {
+    width: 13.19%;
+}
+.picture-grid {
+    position: relative;
+    display: inline-block;
+}
+
 .picture-grid:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -38,7 +29,11 @@
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), transparent);
     background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), transparent);
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0, 0, 0, 0.5)', endColorstr='transparent',GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="rgba(0, 0, 0, 0.5)",
+            endColorstr="transparent",
+            GradientType=0
+        );
 }
 
 .picture-grid .social {
@@ -48,9 +43,34 @@
     z-index: 200;
     margin-top: 15px;
     margin-right: 20px;
+    /*font-family: 'Proxima Nova', sans-serif; Font Unavailable; Price: $29*/
     font-size: 15.24px;
     font-weight: 600;
     color: white;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 1199px) {
+    .picture-grid .row {
+        height: 13em;
+    }
+}
+
+@media (max-width: 991px) {
+    .picture-grid .row {
+        height: 10.75em;
+    }
+}
+
+@media (max-width: 767px) {
+    .picture-grid .row {
+        height: 8.3em;
+    }
+}
+
+@media (max-width: 575px) {
+    .picture-grid .row {
+        height: 6.2em;
+    }
 }
