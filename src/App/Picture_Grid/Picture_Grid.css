@@ -50,8 +50,11 @@
     color: white;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
-
+.picture-grid .social:hover {
+    text-decoration: underline;
+}
 @media (max-width: 1199px) {
     .picture-grid .row {
         height: 13em;

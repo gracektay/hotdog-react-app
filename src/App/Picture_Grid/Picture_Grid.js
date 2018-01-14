@@ -34,10 +34,10 @@ export default class Picture_Grid extends Component {
                     <Image imageRef={photo11} alt="hot dog 11" />
                     <Image optSize="img-sm" imageRef={photo12} alt="hot dog 12" />
                 </div>
-                <div className="social">
+                <a className="social" href="">
                     <img src={instagram} alt="Instagram" />
                     #hotdogs
-                </div>
+                </a>
             </div>
         );
     }

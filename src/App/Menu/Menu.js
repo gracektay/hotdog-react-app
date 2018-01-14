@@ -3,13 +3,18 @@ import "./Menu.css";
 
 export default class Menu extends Component {
     render() {
+        const menuOptions = [
+            { url: "#", title: "Menu" },
+            { url: "#", title: "Catering" },
+            { url: "#", title: "About Us" },
+            { url: "#", title: "Contact" }
+        ];
         return (
             <div className="Menu">
                 <ul>
-                    <NavLink url={"#"} title={"Menu"} />
-                    <NavLink url={"#"} title={"Catering"} />
-                    <NavLink url={"#"} title={"About Us"} />
-                    <NavLink url={"#"} title={"Contact"} />
+                    {menuOptions.map(item => (
+                        <NavLink url={item.url} title={item.title} />
+                    ))}
                 </ul>
             </div>
         );
