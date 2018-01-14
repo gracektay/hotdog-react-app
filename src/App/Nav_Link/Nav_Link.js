@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Nav_Link.css"
 
 export default function NavLink(props) {

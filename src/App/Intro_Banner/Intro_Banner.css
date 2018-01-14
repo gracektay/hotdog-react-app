@@ -29,6 +29,11 @@
     border-radius: .5em;
 }
 
+.CTA-Button:hover {
+    cursor: pointer;
+    background-color: var(--attention-text-color);
+}
+
 @media (max-width: 767px) {
     .Headline {
         width: 90%;

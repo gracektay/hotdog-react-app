@@ -1,8 +1,8 @@
 .ContentRow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
 }
 
 .BlockImage,
@@ -11,22 +11,27 @@
     flex: 1;
     justify-content: center;
     align-self: center;
-    max-height: 36em;
 }
 
 .BlockImage img {
-  object-fit: cover;
-  width: 100%;
+    object-fit: cover;
+    vertical-align:top;
+    width: 100%;
 }
 
 .BlockText h2,
 p {
-  width: 66.66667%;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
+    width: 66.66667%;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
 }
 
+.BlockText p {
+    font-size: 1.125em;
+    font-weight: 300;
+    padding-top: 2em;
+}
 
 .BlockText h2:before {
     content: "";
@@ -37,29 +42,39 @@ p {
     margin-right: 20px;
     justify-content: center;
     align-self: center;
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .ContentRow {
-      display: block;
-      margin-bottom: 1em;
+        display: inline-grid;
+        margin-bottom: 1em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.11);
     }
-    .BlockText, .BlockImage {
-      width: 100%;
-      max-height: 100%;
-      display: block;
+    .ContentRow:last-of-type {
+      margin-bottom: 0;
+    }
+    .BlockText,
+    .BlockImage {
+        width: 100%;
+        max-height: 100%;
+        display: block;
+        flex: 1 100%;
+    }
+    .BlockImage {
+        order: 2;
     }
     .BlockText {
-      padding: 4em 0;
+        order: 1;
+        padding: 4em 0;
     }
     .BlockImage img {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
     .resizeDisplay {
-      display: none;
+        display: none;
     }
     .mobileView {
-      display: block;
+        display: block;
     }
-  }
+}
