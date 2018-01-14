@@ -9,6 +9,10 @@ npm install
 yarn start
 ```
 
+Additions:
+  - Mobile/ Tablet Responsive Views
+  - Hover states on buttons
+
 Thought Process:
   > I noticed that there's a lot of repeated elements on this page, so a component architecure with React made sense for this project. Plus it seemed like a fun challenge!
   - Step 1 - Compile all the necessary assets into appropriate folders, such as photos and fonts.
