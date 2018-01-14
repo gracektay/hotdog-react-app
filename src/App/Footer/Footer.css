@@ -12,11 +12,40 @@
 }
 
 .copyright {
-    flex: 1;
     text-align: left;
+    flex: 1;
 }
 
 .contact-links {
-    flex: 1;
     text-align: right;
+    flex: 1;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.FooterLink {
+    padding: 0 14px;
+    border-right: 1.25px solid var(--body-text-color);
+    text-align: -webkit-match-parent;
+}
+
+.FooterLink:last-child {
+    border-right: none;
+}
+
+.FooterLink a, .FooterLink a:-webkit-any-link {
+    text-decoration: none;
+    color: var(--body-text-color);
+}
+
+.FooterLink a:hover, .FooterLink a:-webkit-any-link:hover {
+    text-decoration: underline;
 }
