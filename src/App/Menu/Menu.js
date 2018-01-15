@@ -12,8 +12,8 @@ export default class Menu extends Component {
         return (
             <div className="Menu">
                 <ul>
-                    {menuOptions.map(item => (
-                        <NavLink url={item.url} title={item.title} />
+                    {menuOptions.map((item, index) => (
+                        <NavLink key={index} url={item.url} title={item.title} />
                     ))}
                 </ul>
             </div>
